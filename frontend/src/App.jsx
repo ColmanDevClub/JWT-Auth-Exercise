@@ -1,6 +1,6 @@
 import GamesList from './GamesList';
 import Login from './Login';
-import Signup from './Signup';
+import Signup from './SignUp';
 
 const App = () => {
   return (

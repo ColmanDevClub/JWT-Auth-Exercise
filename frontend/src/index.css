@@ -34,44 +34,26 @@ h1 {
   margin-bottom: 20px;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form input {
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  cursor: pointer;
-}
-
-form button:hover {
-  background-color: #0056b3;
-}
-
 .form {
   display: flex;
   flex-direction: column;
 }
 
-.form input {
+input {
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.form button {
+select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -80,7 +62,7 @@ form button:hover {
   cursor: pointer;
 }
 
-.form button:hover {
+button:hover {
   background-color: #0056b3;
 }
 

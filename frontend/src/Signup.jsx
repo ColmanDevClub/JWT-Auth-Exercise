@@ -21,7 +21,11 @@ const Signup = () => {
         <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
         <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
         <input type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} />
-        <input type="text" placeholder="Role" onChange={(e) => setRole(e.target.value)} />
+        <select onChange={(e) => setRole(e.target.value)}>
+          <option value="">Select Role</option>
+          <option value="admin">Admin</option>
+          <option value="user">User</option>
+        </select>
         <button onClick={handleSignup}>Sign Up</button>
       </div>
     </section>
